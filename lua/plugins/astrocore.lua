@@ -35,7 +35,7 @@ return {
         signcolumn = "auto", -- sets vim.opt.signcolumn to auto
         wrap = true,
         tabstop = 4, -- number of space in a tab
-        showtabline = 4, -- always display tabline
+        showtabline = 0, -- always display tabline
         shiftwidth = 4, -- number of space inserted for indentation
         list = true, -- sets vim.opt.wrap
         listchars = {
